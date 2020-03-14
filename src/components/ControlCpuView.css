@@ -1,0 +1,68 @@
+.ControlCpuView {
+  height: 55px;
+  background-color: #1771F1;
+  width: 100%;
+}
+
+.ControlCpuView__buttons {
+  margin-left: 400px;
+  width: max-content;
+  height: min-content;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.ControlCpuView__cpu-run-button {
+  border: 0px none #4cae4c;
+  border-radius: 2px;
+  background-color: #5cb85c;
+  height: 35px;
+  width: 80px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.ControlCpuView__cpu-stop-button {
+  border: 0px none white;
+  border-radius: 2px;
+  background-color: white;
+  height: 35px;
+  width: 80px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.ControlCpuView__cpu-step-button {
+  border: 1px solid #CCD1D1;
+  border-radius: 2px;
+  background-color: white;
+  height: 35px;
+  width: 70px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.ControlCpuView__cpu-step-button:hover {
+  background-color: #E5E8E8;
+  cursor: pointer;
+}
+
+.ControlCpuView__cpu-step-button:active {
+  transform: scale(0.97);
+}
+
+.ControlCpuView__cpu-reset-button {
+  border: 0px none white;
+  border-radius: 2px;
+  background-color: white;
+  height: 35px;
+  width: 80px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+}

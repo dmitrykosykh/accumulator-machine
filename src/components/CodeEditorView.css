@@ -1,0 +1,58 @@
+.CodeEditorView {
+  width: 700px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #cfcfcf;
+}
+
+.CodeEditorView__title {
+  color: #1b262c;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Sniglet', cursive;
+  height: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cfcfcf;
+  background-color: #EAEDED;
+}
+
+.CodeEditorView__title__title {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.CodeEditorView__editor {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.CodeEditorView__editor__assemble-button {
+  margin-top: 7px;
+  margin-left: 7px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #cfcfcf;
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  font-size: 14px;
+}
+
+.CodeEditorView__editor__editor {
+  resize: vertical;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding: 15px;
+  color: #566573;
+  margin-left: 10px;
+}
+
+.CodeEditorView__editor__editor-area {
+  display: flex;
+  flex-direction: row;
+}

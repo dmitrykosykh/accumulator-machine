@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+}
+
+.AppComponent {
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+}
+
+.AppComponent__dashboard {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.AppComponent__ComputerState {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AppComponent__ComputerState__MemoryView {
+  margin-top: 30px;
+}

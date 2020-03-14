@@ -1,0 +1,47 @@
+.MemoryView {
+  font-family: 'Roboto', sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #cfcfcf;
+  color: #777;
+  width: 700px;
+}
+
+.MemoryView__title {
+  color: #1b262c;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Sniglet', cursive;
+  height: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cfcfcf;
+  background-color: #EAEDED;
+}
+
+.MemoryView__title__title {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.MemoryView__cells {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.MemoryView__cells__item {
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+  color: #1A2026;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.MemoryView__cells__item__instrPointer {
+  background-color: #F4D03F;
+}
